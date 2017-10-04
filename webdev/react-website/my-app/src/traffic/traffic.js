@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
-import './new-visitors.css'
+import './traffic.css'
 
-class NewVisitors extends Component {
+class Traffic extends Component {
     
     render() {
         return (
             <div className="card">
-                <img className="card-img-top visitors" src={this.props.imgUrl} alt="Product"></img>
+                <img className="card-img-top traffic" src={this.props.imgUrl} alt="Traffic"></img>
                 <div className="card-block">
-                    <h4 className="card-title">18</h4>
+                    <h4 className="card-title">Traffic</h4>
                     <p className="card-text">Price: ${this.props.city}</p>
                 </div>
             </div>
@@ -16,4 +16,4 @@ class NewVisitors extends Component {
     }
 }
 
-export default NewVisitors;
+export default Traffic;
